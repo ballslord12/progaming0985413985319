@@ -14,9 +14,9 @@ function ret:Library(Name)
 	local m = 0
 	local aui = Instance.new("ScreenGui")
 
-	--aui.Parent = game:GetService("CoreGui")
-	local lp = game.Players.LocalPlayer
-	aui.Parent = lp.PlayerGui
+	aui.Parent = game:GetService("CoreGui")
+	--local lp = game.Players.LocalPlayer
+	--aui.Parent = lp.PlayerGui
 	aui.Name = "Athena ui Remake"
 	local rtbl = {}
 	local NormalColor = Color3.new(0,0,0)
