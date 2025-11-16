@@ -136,11 +136,11 @@ function ret:Library(Name)
 					if settings.vis then
 						v.Visible = true
 						game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.Chat, not settings.disablechat)
-						Blur.Enabled = settings.blur
+						--Blur.Enabled = settings.blur
 					else
 						v.Visible = false
 						game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
-						Blur.Enabled = false
+						--Blur.Enabled = false
 					end
 				end
 			end
